@@ -8,6 +8,8 @@
     - Container to deploy to Kubernetes as Pod
 - `VPNserver`
     - Container to deploy to backend-server which I own
+- `proxyManager`
+    - manager for `VPNserver`
 - `externalServiceDashboard`
     - dashboard for client
     - deployed separately from controller
